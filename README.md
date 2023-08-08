@@ -8,3 +8,9 @@
 建立虛擬環境
 
 conda create --name car_env python=3.11 #在--name後面自行命名環境名稱
+
+進入虛擬環境
+
+conda activate car_env
+
+

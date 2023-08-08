@@ -31,7 +31,10 @@ Error in installing dlib library in python3.11
 
 降版本到 pip install python=3.6
 
-這時可以安裝dlib了
+這時可以安裝dlib了(下載合適版本)
+Download dlib from https://pypi.org/simple/dlib/ 
+
+安裝dlib
 pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
 
 

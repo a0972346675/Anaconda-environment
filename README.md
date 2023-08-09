@@ -54,26 +54,16 @@ pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
 心跳模組實驗 (手指心跳脈搏感測模組 / 心率偵測)
 感測器採購: https://shop.playrobot.com/products/finger-pulse-heartbeat-detection-sensor
 
-產品介紹：
-
 這個模組採用超亮紅外(IR)LED漢光敏晶體管來探測手指的脈搏，紅色LED會隨著脈搏閃動，當血壓脈搏通過手指時，電阻便會有微小的變化，只要你有Arduino控制器，就可以製造出自己的脈搏偵測機！
 
-產品規格：
-
-尺寸(cm)：2.5 x 2.0 x 1.8
-重量(kg)：0.005
-供電電壓：3V 或者 5V
-產地：中國
-接口定義：
+規格：
 
 + 接5v
 s 接信号
 - 接GND
-文件下載：
 
-請購買後來信索取相關資料
 程式碼：
-
+------------------------------------------------------------
 // Pulse Monitor Test Script
 int sensorPin = 0;
 double alpha = 0.75;
@@ -99,6 +89,6 @@ void loop ()
  
     delay (period);
 }
-
+------------------------------------------------------------
 
 

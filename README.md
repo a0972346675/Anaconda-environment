@@ -50,3 +50,11 @@ pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
 安裝PIL套件   pip install Pillow
 
 ------------------------------------------------------------
+
+心跳模組實驗 (手指心跳脈搏感測模組 / 心率偵測)
+感測器採購: https://shop.playrobot.com/products/finger-pulse-heartbeat-detection-sensor
+
+
+
+
+

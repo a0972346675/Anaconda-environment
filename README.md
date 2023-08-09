@@ -42,7 +42,10 @@ pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
 
 先解安裝  pip uninstall numpy
 
-在安裝相對應版本  pip install numpy==1.19.3
+再安裝相對應版本  pip install numpy==1.19.3
+
+先解安裝  pip uninstall scipy
+再安裝相對應版本 pip install scipy==1.5.4
 
 
 

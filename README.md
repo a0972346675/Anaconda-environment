@@ -29,15 +29,17 @@ Error in installing dlib library in python3.11
 參考這一篇文章 https://stackoverflow.com/questions/74476152/error-in-installing-dlib-library-in-python3-11
 解法: python要搭配合適的dlib版本，目前python3.11沒支援dlib，所以要降版本到python3.6
 
-降版本到 pip install python=3.6
+降版本到 pip install python=3.9
 
-這時可以安裝dlib了(下載合適版本)
+這時可以安裝相對應dlib版本了(下載合適版本，從這裡選擇)
 https://github.com/shashankx86/dlib_compiled
-
 
 安裝dlib
 pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
 
+另外，numpy也要安裝合適對應版本 
+先解安裝  pip uninstall numpy
+在安裝相對應版本  pip install numpy==1.19.3
 
 
 

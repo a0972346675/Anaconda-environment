@@ -22,7 +22,7 @@ conda activate car_env
 載入opencv套件
 pip install opencv-python
 
-安裝dlib會報錯
+安裝dlib會報錯: 解法!
 ------------------------------------------------------------
 
 Error in installing dlib library in python3.11
@@ -47,6 +47,6 @@ pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
 先解安裝  pip uninstall scipy
 再安裝相對應版本 pip install scipy==1.5.4
 
+安裝PIL套件   pip install Pillow
 
-
-
+------------------------------------------------------------

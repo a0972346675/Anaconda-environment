@@ -37,8 +37,11 @@ https://github.com/shashankx86/dlib_compiled
 安裝dlib
 pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
 
-另外，numpy也要安裝合適對應版本 
+另外，numpy也要安裝合適對應版本
+(可以參考numpy衝突說明: [numpy1.19.4与python3.9版本冲突解决]  https://blog.csdn.net/weixin_47154407/article/details/110673550 )
+
 先解安裝  pip uninstall numpy
+
 在安裝相對應版本  pip install numpy==1.19.3
 
 

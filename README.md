@@ -59,11 +59,14 @@ pip install dlib-19.8.1-cp36-cp36m-win_amd64.whl
 規格：
 
 + 接5v
+  
 s 接信号
+
 - 接GND
 
 程式碼：
 ------------------------------------------------------------
+
 // Pulse Monitor Test Script
 int sensorPin = 0;
 double alpha = 0.75;
@@ -89,6 +92,7 @@ void loop ()
  
     delay (period);
 }
+
 ------------------------------------------------------------
 
 
